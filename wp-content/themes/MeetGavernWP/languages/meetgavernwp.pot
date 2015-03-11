@@ -1,0 +1,1321 @@
+# Translation of the WordPress theme Meet GavernWP by the GavickPro team.
+# Copyright (C) GavickPro 2012
+# This file is distributed under the same license as the PACKAGE package.
+# GavickPro <info@gavick.com>, 2012.
+#
+#, fuzzy
+msgid   ""
+msgstr  ""
+"Project-Id-Version: MeetGavernWP\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-08-02 10:14+0200\n"
+"PO-Revision-Date: 2014-09-09 12:03+1100\n"
+"Last-Translator: GavickPro <info@gavick.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_n\n"
+
+#: comments.php:29
+#, php-format
+msgid   "%1$s Comments"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.fragments.php:110
+#, php-format
+msgid   "%1$s at %2$s"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.fragments.php:101
+#, php-format
+msgid   "%1$s on %2$s"
+msgstr  ""
+
+#: gavern/filters.php:276
+msgid   "&laquo; Back"
+msgstr  ""
+
+#: comments.php:37 comments.php:54
+msgid   "&larr; Older Comments"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.fragments.php:367
+msgid   "&larr; Older posts"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.fragments.php:216
+#: gavern/helpers/helpers.layout.fragments.php:270
+msgid   ", "
+msgstr  ""
+
+#: comments.php:25
+msgid   "1 Comment"
+msgstr  ""
+
+#: comments.php:27
+msgid   "2 Comments"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:514
+msgid   "404 page"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.php:1006
+msgid   "< Prev"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.fragments.php:292
+msgid   "<b>%</b> Replies"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.fragments.php:291
+msgid   "<b>1</b> Reply"
+msgstr  ""
+
+#: attachment.php:29
+#, php-format
+msgid   "<span>&larr;</span> %s"
+msgstr  ""
+
+#: gavern/widgets.nsp.php:543
+msgid   "ASC"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:526
+msgid   "Add page"
+msgstr  ""
+
+#: gavern/form_elements/Fonts/fonts.php:60
+msgid   "Adobe Edge Fonts"
+msgstr  ""
+
+#: gavern/form_elements/Fonts/fonts.php:133
+msgid   "Adobe Edge Fonts URL: "
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:673
+msgid   "All devices"
+msgstr  ""
+
+#: gavern/form_elements/Menu/menu.php:80
+msgid   "All levels"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:494
+msgid   "All pages"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:495
+msgid   "All pages except:"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:689
+msgid   "All users"
+msgstr  ""
+
+#: gavern/widgets.nsp.php:985 gavern/widgets.nsp.php:988
+msgid   "An error occured during creating the thumbnail."
+msgstr  ""
+
+#: gavern/form_elements/Menu/menu.php:93
+msgid   "Animation for "
+msgstr  ""
+
+#: gavern/widgets.tabs.php:263
+msgid   "Animation interval (ms):"
+msgstr  ""
+
+#: gavern/widgets.tabs.php:258
+msgid   "Animation speed (ms):"
+msgstr  ""
+
+#: gavern/form_elements/Menu/menu.php:109
+msgid   "Animation speed for "
+msgstr  ""
+
+#: category.php:48 index.php:43 author.php:45 template.latest.php:38
+#: tag.php:45 archive.php:43
+msgid   "Apologies, but no results were found for the requested archive. "
+        "Perhaps searching will help find a related post."
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:508
+msgid   "Archive"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.php:495
+msgid   "Archives"
+msgstr  ""
+
+#: gavern/widgets.nsp.php:592 gavern/widgets.nsp.php:608
+msgid   "Arrows"
+msgstr  ""
+
+#: gavern/widgets.nsp.php:649
+msgid   "Article format"
+msgstr  ""
+
+#: gavern/widgets.nsp.php:585
+msgid   "Article pagination:"
+msgstr  ""
+
+#: gavern/widgets.nsp.php:564
+msgid   "Articles amount"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.fragments.php:308
+msgid   "Attachment size:"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:509
+msgid   "Author"
+msgstr  ""
+
+#: author.php:22
+#, php-format
+msgid   "Author archives: %s %s"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.fragments.php:276
+#: gavern/helpers/helpers.features.php:521
+msgid   "Author:"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.fragments.php:542
+#, php-format
+msgid   "Author: %s "
+msgstr  ""
+
+#: gavern/widgets.tabs.php:245
+msgid   "Auto animation:"
+msgstr  ""
+
+#: gavern/widgets.nsp.php:636
+msgid   "Auto-animation stops on hover:"
+msgstr  ""
+
+#: gavern/widgets.nsp.php:619
+msgid   "Auto-animation:"
+msgstr  ""
+
+#: gavern/widgets.nsp.php:616
+msgid   "Autoanimation settings"
+msgstr  ""
+
+#: gavern/widgets.comments.php:200
+msgid   "Avatar size:"
+msgstr  ""
+
+#: template.contact.php:183
+msgid   "Back to the homepage"
+msgstr  ""
+
+#: layouts/footer.php:23
+msgid   "Back to top"
+msgstr  ""
+
+#: gavern/layouts/template.php:28 gavern/options.importexport.php:29
+msgid   "Based on the Gavern WP framework"
+msgstr  ""
+
+#: gavern/widgets.nsp.php:483
+msgid   "Basic settings"
+msgstr  ""
+
+#: archive.php:25
+msgid   "Blog Archives"
+msgstr  ""
+
+#: gavern/widgets.nsp.php:558
+msgid   "Blog ID (leave blank for current blog): "
+msgstr  ""
+
+#: gavern/widgets.nsp.php:595 gavern/widgets.nsp.php:611
+msgid   "Both"
+msgstr  ""
+
+#: gavern/widgets.nsp.php:899
+msgid   "Cache settings"
+msgstr  ""
+
+#: gavern/widgets.nsp.php:902
+msgid   "Cache time (min):"
+msgstr  ""
+
+#: template.archive.php:40
+msgid   "Categories"
+msgstr  ""
+
+#: gavern/widgets.nsp.php:500
+msgid   "Categories slugs"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:505
+msgid   "Category"
+msgstr  ""
+
+#: category.php:21
+#, php-format
+msgid   "Category Archives: %s"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:518
+msgid   "Category ID/Name/slug:"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:519
+msgid   "Category ID:"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:506
+msgid   "Category with descendants"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.fragments.php:267
+msgid   "Category:"
+msgstr  ""
+
+#: gavern/widgets.nsp.php:675 gavern/widgets.nsp.php:713
+#: gavern/widgets.nsp.php:865 gavern/widgets.nsp.php:891
+msgid   "Chars"
+msgstr  ""
+
+#: gavern/widgets.tabs.php:236
+msgid   "Click"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.php:1009
+msgid   "Close"
+msgstr  ""
+
+#: gavern/widgets.nsp.php:1041
+msgid   "Comments "
+msgstr  ""
+
+#: comments.php:68
+msgid   "Comments are closed."
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.fragments.php:285
+msgid   "Comments:"
+msgstr  ""
+
+#: gavern/form_elements/Menu/menu.php:59 gavern/form_elements/Menu/menu.php:66
+msgid   "Conditional rule"
+msgstr  ""
+
+#: content-audio.php:28 content-status.php:29 content-aside.php:29
+#: content-video.php:28 content-chat.php:28 content-gallery.php:30
+#: content-gallery.php:58 content-quote.php:29 content-link.php:27
+#: content-image.php:28
+msgid   "Continue reading &rarr;"
+msgstr  ""
+
+#: attachment.php:72 content.php:26
+msgid   "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:663
+msgid   "Custom CSS class"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:670
+msgid   "Custom CSS class: "
+msgstr  ""
+
+#: gavern/widgets.nsp.php:509
+msgid   "Custom post types"
+msgstr  ""
+
+#: gavern/layouts/template.php:30
+msgid   "Customize theme"
+msgstr  ""
+
+#: gavern/widgets.nsp.php:546
+msgid   "DESC"
+msgstr  ""
+
+#: archive.php:19
+#, php-format
+msgid   "Daily Archives: %s"
+msgstr  ""
+
+#: gavern/widgets.nsp.php:490
+msgid   "Data source settings"
+msgstr  ""
+
+#: gavern/widgets.nsp.php:493
+msgid   "Data source:"
+msgstr  ""
+
+#: gavern/widgets.nsp.php:525
+msgid   "Date"
+msgstr  ""
+
+#: gavern/widgets.nsp.php:815
+msgid   "Date format:"
+msgstr  ""
+
+#: gavern/form_elements/Menu/menu.php:75
+msgid   "Depth of "
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:73
+msgid   "Description:"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:674
+msgid   "Desktop"
+msgstr  ""
+
+#: gavern/widgets.tabs.php:252 gavern/helpers/helpers.features.php:106
+#: gavern/helpers/helpers.features.php:114
+#: gavern/helpers/helpers.features.php:122
+#: gavern/helpers/helpers.features.php:129
+#: gavern/helpers/helpers.features.php:136
+#: gavern/helpers/helpers.features.php:143
+#: gavern/helpers/helpers.features.php:150
+#: gavern/helpers/helpers.features.php:157
+#: gavern/helpers/helpers.features.php:165
+#: gavern/helpers/helpers.features.php:172
+#: gavern/helpers/helpers.features.php:179
+#: gavern/form_elements/Menu/menu.php:58 gavern/form_elements/standard.php:237
+msgid   "Disabled"
+msgstr  ""
+
+#: gavern/functions.php:98
+msgid   "Documentation"
+msgstr  ""
+
+#: template.contact.php:128
+msgid   "E-mail:"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.fragments.php:80
+#: gavern/helpers/helpers.layout.fragments.php:117
+#: gavern/helpers/helpers.layout.fragments.php:328
+msgid   "Edit"
+msgstr  ""
+
+#: template.contact.php:206
+msgid   "Email:"
+msgstr  ""
+
+#: gavern/form_elements/Menu/menu.php:52
+msgid   "Enable"
+msgstr  ""
+
+#: gavern/widgets.tabs.php:249 gavern/helpers/helpers.features.php:105
+#: gavern/helpers/helpers.features.php:113
+#: gavern/helpers/helpers.features.php:121
+#: gavern/helpers/helpers.features.php:128
+#: gavern/helpers/helpers.features.php:135
+#: gavern/helpers/helpers.features.php:142
+#: gavern/helpers/helpers.features.php:149
+#: gavern/helpers/helpers.features.php:156
+#: gavern/helpers/helpers.features.php:164
+#: gavern/helpers/helpers.features.php:171
+#: gavern/helpers/helpers.features.php:178
+#: gavern/form_elements/Menu/menu.php:57 gavern/form_elements/standard.php:238
+msgid   "Enabled"
+msgstr  ""
+
+#: gavern/form_elements/standard.php:274
+msgid   "Enter an URL or upload an image."
+msgstr  ""
+
+#: gavern/widgets.social.php:144
+msgid   "Facebook link:"
+msgstr  ""
+
+#: gavern/form_elements/Menu/menu.php:114
+msgid   "Fast animation (250ms)"
+msgstr  ""
+
+#: layouts/content.post.header.php:39
+msgid   "Featured"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:269
+#: gavern/helpers/helpers.features.php:270
+msgid   "Featured Video"
+msgstr  ""
+
+#: gavern/layouts/template.php:33
+msgid   "Follow us on the social media: "
+msgstr  ""
+
+#: gavern/form_elements/Fonts/fonts.php:63
+msgid   "Font family: "
+msgstr  ""
+
+#: gavern/form_elements/Fonts/fonts.php:58
+msgid   "Fonts Squirrel"
+msgstr  ""
+
+#: gavern/form_elements/Fonts/fonts.php:104
+msgid   "Fonts Squirrel: "
+msgstr  ""
+
+#: gavern/widgets.nsp.php:809
+msgid   "Format:"
+msgstr  ""
+
+#: template.contact.php:108 template.contact.php:110 template.contact.php:112
+msgid   "From "
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.fragments.php:313
+#, php-format
+msgid   "Full size is %s pixels"
+msgstr  ""
+
+#: gavern/widgets.comments.php:20
+msgid   "GK Comments"
+msgstr  ""
+
+#: gavern/widgets.nsp.php:25
+msgid   "GK News Show Pro"
+msgstr  ""
+
+#: gavern/widgets.social.php:20
+msgid   "GK Social Icons"
+msgstr  ""
+
+#: gavern/widgets.tabs.php:20
+msgid   "GK Tabs"
+msgstr  ""
+
+#: gavern/functions.php:109
+msgid   "GavickPro Website"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.fragments.php:566
+msgid   "Google Profile"
+msgstr  ""
+
+#: gavern/filters.php:109
+msgid   "Google Profile URL"
+msgstr  ""
+
+#: gavern/form_elements/Fonts/fonts.php:59
+msgid   "Google Web Fonts"
+msgstr  ""
+
+#: gavern/form_elements/Fonts/fonts.php:119
+msgid   "Google Web Fonts URL: "
+msgstr  ""
+
+#: gavern/widgets.social.php:154
+msgid   "Google+ link:"
+msgstr  ""
+
+#: gavern/form_elements/Menu/menu.php:100
+msgid   "Height and Opacity"
+msgstr  ""
+
+#: template.login.php:32
+msgid   "Hi, "
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:502 gavern/filters.php:309
+msgid   "Homepage"
+msgstr  ""
+
+#: gavern/widgets.tabs.php:239
+msgid   "Hover"
+msgstr  ""
+
+#: gavern/widgets.nsp.php:521
+msgid   "ID"
+msgstr  ""
+
+#: gavern/widgets.nsp.php:734 gavern/helpers/helpers.layout.php:1007
+msgid   "Image"
+msgstr  ""
+
+#: gavern/functions.php:71
+msgid   "Import/Export"
+msgstr  ""
+
+#: gavern/widgets.nsp.php:780
+msgid   "Info block"
+msgstr  ""
+
+#: gavern/widgets.nsp.php:631
+msgid   "Interval (ms):"
+msgstr  ""
+
+#: 404.php:18
+msgid   "It seems we can&rsquo;t find what you&rsquo;re looking for."
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:76
+msgid   "Keywords:"
+msgstr  ""
+
+#: gavern/widgets.comments.php:55
+msgid   "Latest Comments"
+msgstr  ""
+
+#: gavern/widgets.nsp.php:497 template.archive.php:28
+msgid   "Latest posts"
+msgstr  ""
+
+#: gavern/helpers/helpers.customizer.php:53
+msgid   "Layout"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.fragments.php:290
+msgid   "Leave a reply"
+msgstr  ""
+
+#: gavern/widgets.nsp.php:775
+msgid   "Left"
+msgstr  ""
+
+#: gavern/widgets.nsp.php:845
+msgid   "Link format"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.fragments.php:316
+msgid   "Link to full-size image"
+msgstr  ""
+
+#: gavern/widgets.nsp.php:576
+msgid   "Links amount"
+msgstr  ""
+
+#: gavern/widgets.nsp.php:601
+msgid   "Links pagination:"
+msgstr  ""
+
+#: template.login.php:48
+msgid   "Log In"
+msgstr  ""
+
+#: template.login.php:33 template.login.php:34
+msgid   "Logout"
+msgstr  ""
+
+#: template.login.php:63
+msgid   "Lost your password?"
+msgstr  ""
+
+#: layouts/header.php:98
+msgid   "Main menu"
+msgstr  ""
+
+#: gavern/widgets.nsp.php:765
+msgid   "Margin:"
+msgstr  ""
+
+#: gavern/helpers/helpers.shortcodes.php:569
+msgid   "Members only"
+msgstr  ""
+
+#: template.contact.php:117
+msgid   "Message from"
+msgstr  ""
+
+#: template.contact.php:134 template.contact.php:217
+msgid   "Message:"
+msgstr  ""
+
+#: gavern/helpers/helpers.customizer.php:141
+msgid   "Mobile width"
+msgstr  ""
+
+#: gavern/widgets.nsp.php:533
+msgid   "Modified"
+msgstr  ""
+
+#: template.archive.php:53
+msgid   "Monthly Archives"
+msgstr  ""
+
+#: archive.php:21
+#, php-format
+msgid   "Monthly Archives: %s"
+msgstr  ""
+
+#: 404.php:30
+msgid   "Most Used Categories"
+msgstr  ""
+
+#: template.contact.php:121 template.contact.php:194
+msgid   "Name:"
+msgstr  ""
+
+#: comments.php:40 comments.php:57
+msgid   "Newer Comments &rarr;"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.fragments.php:371
+msgid   "Newer posts &rarr;"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.php:1005
+msgid   "Next >"
+msgstr  ""
+
+#: gavern/form_elements/Menu/menu.php:102
+msgid   "No animation"
+msgstr  ""
+
+#: gavern/widgets.nsp.php:1039
+msgid   "No comments"
+msgstr  ""
+
+#: gavern/form_elements/standard.php:275
+msgid   "No image selected"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:530
+msgid   "No pages"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:496
+msgid   "No pages except:"
+msgstr  ""
+
+#: gavern/helpers/helpers.shortcodes.php:633
+msgid   "No related posts found"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:660
+msgid   "No styles available"
+msgstr  ""
+
+#: gavern/widgets.tabs.php:130
+msgid   "No title specified!"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:631
+msgid   "None"
+msgstr  ""
+
+#: gavern/form_elements/Menu/menu.php:115
+msgid   "Normal animation (500ms)"
+msgstr  ""
+
+#: template.login.php:66
+msgid   "Not a member? Register"
+msgstr  ""
+
+#: category.php:44 index.php:39 search.php:43 search.php:53 author.php:41
+#: template.latest.php:34 tag.php:41 archive.php:41
+msgid   "Nothing Found"
+msgstr  ""
+
+#: gavern/widgets.comments.php:210
+msgid   "Number of comments:"
+msgstr  ""
+
+#: gavern/widgets.nsp.php:625 gavern/widgets.nsp.php:642
+#: gavern/widgets.nsp.php:665 gavern/widgets.nsp.php:703
+#: gavern/widgets.nsp.php:741 gavern/widgets.nsp.php:787
+#: gavern/widgets.nsp.php:828 gavern/widgets.nsp.php:855
+#: gavern/widgets.nsp.php:881
+msgid   "Off"
+msgstr  ""
+
+#: gavern/widgets.nsp.php:552
+msgid   "Offset:"
+msgstr  ""
+
+#: gavern/widgets.nsp.php:622 gavern/widgets.nsp.php:639
+#: gavern/widgets.nsp.php:662 gavern/widgets.nsp.php:700
+#: gavern/widgets.nsp.php:738 gavern/widgets.nsp.php:784
+#: gavern/widgets.nsp.php:825 gavern/widgets.nsp.php:852
+#: gavern/widgets.nsp.php:878
+msgid   "On"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:692
+msgid   "Only administrator"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:690
+msgid   "Only guests"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:691
+msgid   "Only registered users"
+msgstr  ""
+
+#: gavern/form_elements/Menu/menu.php:101
+msgid   "Opacity"
+msgstr  ""
+
+#: gavern/widgets.nsp.php:517
+msgid   "Order by:"
+msgstr  ""
+
+#: gavern/widgets.nsp.php:652
+msgid   "Padding:"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:503
+msgid   "Page"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.php:60
+#, php-format
+msgid   "Page %s"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:516
+msgid   "Page ID/Title/slug:"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:510
+msgid   "Page Template"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:63
+msgid   "Page additional params"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:59
+msgid   "Page keywords and description"
+msgstr  ""
+
+#: gavern/helpers/helpers.customizer.php:106
+msgid   "Page layout"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.php:493
+msgid   "Page not found"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.fragments.php:347
+msgid   "Pages:"
+msgstr  ""
+
+#: gavern/widgets.nsp.php:589 gavern/widgets.nsp.php:605
+msgid   "Pagination"
+msgstr  ""
+
+#: template.login.php:46
+msgid   "Password"
+msgstr  ""
+
+#: template.login.php:63
+msgid   "Password Lost and Found"
+msgstr  ""
+
+#: 404.php:20
+msgid   "Perhaps searching, or one of the links below, can help."
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.fragments.php:325
+#, php-format
+msgid   "Permalink to %1$s"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.fragments.php:479
+msgid   "Pin it"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.fragments.php:78
+msgid   "Pingback:"
+msgstr  ""
+
+#: gavern/layouts/template.php:63
+msgid   "Please check the form!"
+msgstr  ""
+
+#: gavern/widgets.nsp.php:771
+msgid   "Position:"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:504
+msgid   "Post"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:517
+msgid   "Post ID/Title/slug:"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:62
+msgid   "Post additional params"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.fragments.php:244
+msgid   "Post date:"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:58
+msgid   "Post keywords and description"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:512
+msgid   "Post type"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:525
+msgid   "Post type:"
+msgstr  ""
+
+#: gavern/widgets.nsp.php:506
+msgid   "Posts slugs"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.php:490
+msgid   "Published by: "
+msgstr  ""
+
+#: gavern/widgets.social.php:159
+msgid   "RSS link:"
+msgstr  ""
+
+#: gavern/widgets.nsp.php:537
+msgid   "Random"
+msgstr  ""
+
+#: gavern/widgets.nsp.php:821 gavern/widgets.nsp.php:1064
+msgid   "Read more"
+msgstr  ""
+
+#: template.login.php:66
+msgid   "Register"
+msgstr  ""
+
+#: template.login.php:47
+msgid   "Remember Me"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.fragments.php:124
+msgid   "Reply"
+msgstr  ""
+
+#: attachment.php:28
+#, php-format
+msgid   "Return to %s"
+msgstr  ""
+
+#: gavern/layouts/template.php:63
+msgid   "Save settings"
+msgstr  ""
+
+#: gavern/layouts/template.php:63
+msgid   "Saving&hellip;"
+msgstr  ""
+
+#: searchform.php:13 searchform.php:14 searchform.php:16
+msgid   "Search"
+msgstr  ""
+
+#: search.php:19
+#, php-format
+msgid   "Search Results for: %s"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:513
+msgid   "Search page"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.php:57
+#, php-format
+msgid   "Search results for %s"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.php:498
+msgid   "Searching for: "
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:500
+msgid   "Select page to add"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:529
+msgid   "Selected pages"
+msgstr  ""
+
+#: gavern/form_elements/Fonts/fonts.php:146
+msgid   "Selectors:"
+msgstr  ""
+
+#: template.contact.php:231
+msgid   "Send copy of the message to yourself"
+msgstr  ""
+
+#: template.contact.php:255
+msgid   "Send message"
+msgstr  ""
+
+#: gavern/options.template.php:174
+msgid   "Settings saved"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:176
+msgid   "Show \"send copy\":"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:133
+msgid   "Show author:"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:140
+msgid   "Show category:"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:154
+msgid   "Show comments:"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:126
+msgid   "Show date:"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:169
+msgid   "Show e-mail field:"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:111
+msgid   "Show featured image:"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:162
+msgid   "Show name field:"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:119
+msgid   "Show sidebar information:"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:147
+msgid   "Show tags:"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:103
+msgid   "Show title:"
+msgstr  ""
+
+#: gavern/helpers/helpers.customizer.php:151
+msgid   "Sidebar % width"
+msgstr  ""
+
+#: gavern/helpers/helpers.customizer.php:112
+msgid   "Sidebar disabled"
+msgstr  ""
+
+#: gavern/helpers/helpers.customizer.php:110
+msgid   "Sidebar on the left"
+msgstr  ""
+
+#: gavern/helpers/helpers.customizer.php:111
+msgid   "Sidebar on the right"
+msgstr  ""
+
+#: gavern/form_elements/Menu/menu.php:116
+msgid   "Slow animation (1000ms)"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:676
+msgid   "Smartphones"
+msgstr  ""
+
+#: template.contact.php:187
+msgid   "Sorry, an error occured."
+msgstr  ""
+
+#: search.php:47 search.php:59
+msgid   "Sorry, but nothing matched your search criteria. Please try again "
+        "with some different keywords."
+msgstr  ""
+
+#: gavern/form_elements/Fonts/fonts.php:57
+msgid   "Standard fonts"
+msgstr  ""
+
+#: gavern/helpers/helpers.customizer.php:131
+msgid   "Tablet width"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:677
+msgid   "Tablet/Smartphones"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:675
+msgid   "Tablets"
+msgstr  ""
+
+#: gavern/widgets.tabs.php:232
+msgid   "Tabs activator event:"
+msgstr  ""
+
+#: gavern/widgets.tabs.php:220
+msgid   "Tabs source:"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:507
+msgid   "Tag"
+msgstr  ""
+
+#: tag.php:20
+#, php-format
+msgid   "Tag Archives: %s"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:520
+msgid   "Tag ID/Name:"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.php:484
+msgid   "Tag: "
+msgstr  ""
+
+#: gavern/widgets.nsp.php:503
+msgid   "Tags"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.fragments.php:300
+msgid   "Tags:"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:511
+msgid   "Taxonomy"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:524
+msgid   "Taxonomy term:"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:523
+msgid   "Taxonomy:"
+msgstr  ""
+
+#: gavern/functions.php:54
+msgid   "Template options"
+msgstr  ""
+
+#: gavern/layouts/updates.php:21
+msgid   "Template version: "
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:522
+msgid   "Template:"
+msgstr  ""
+
+#: gavern/widgets.nsp.php:696 gavern/widgets.nsp.php:874
+msgid   "Text"
+msgstr  ""
+
+#: template.contact.php:95
+msgid   "The reCAPTCHA wasn't entered correctly. Go back and try it again."
+msgstr  ""
+
+#: gavern/helpers/helpers.customizer.php:121
+msgid   "Theme width"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.php:1010
+msgid   "This feature requires inline frames. You have iframes disabled or "
+        "your browser does not support them."
+msgstr  ""
+
+#: comments.php:13
+msgid   "This post is password protected. Enter the password to view any "
+        "comments."
+msgstr  ""
+
+#: gavern/widgets.nsp.php:529 gavern/widgets.nsp.php:658
+#: gavern/widgets.nsp.php:848
+msgid   "Title"
+msgstr  ""
+
+#: gavern/widgets.comments.php:195 gavern/widgets.tabs.php:215
+#: gavern/widgets.nsp.php:486 gavern/widgets.social.php:139
+msgid   "Title:"
+msgstr  ""
+
+#: gavern/widgets.nsp.php:774
+msgid   "Top"
+msgstr  ""
+
+#: 404.php:39
+msgid   "Try looking in the monthly archives."
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.fragments.php:457
+msgid   "Tweet"
+msgstr  ""
+
+#: gavern/widgets.social.php:149
+msgid   "Twitter link:"
+msgstr  ""
+
+#: gavern/layouts/updates.php:17 gavern/functions.php:83
+msgid   "Updates"
+msgstr  ""
+
+#: gavern/form_elements/standard.php:273
+msgid   "Upload Image"
+msgstr  ""
+
+#: gavern/widgets.comments.php:23
+msgid   "Use this widget to show recent comments with avatars"
+msgstr  ""
+
+#: gavern/widgets.nsp.php:28
+msgid   "Use this widget to show recent items with images and additional "
+        "elements like title, date etc."
+msgstr  ""
+
+#: gavern/widgets.social.php:23
+msgid   "Use this widget to show social links"
+msgstr  ""
+
+#: gavern/widgets.tabs.php:23
+msgid   "Use this widget to show tabs created form the selected sidebar"
+msgstr  ""
+
+#: template.login.php:45
+msgid   "Username"
+msgstr  ""
+
+#: gavern/layouts/template.php:28
+msgid   "Version: "
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:280
+msgid   "Video Embed Code"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.fragments.php:279
+#, php-format
+msgid   "View all posts by %s"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:492
+msgid   "Visible at: "
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:695
+msgid   "Visible for: "
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:680
+msgid   "Visible on: "
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.fragments.php:554
+msgid   "Website: "
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:666
+msgid   "Widget style: "
+msgstr  ""
+
+#: gavern/form_elements/Menu/menu.php:99
+msgid   "Width and Opacity"
+msgstr  ""
+
+#: gavern/form_elements/Menu/menu.php:98
+msgid   "Width, Height and Opacity"
+msgstr  ""
+
+#: gavern/widgets.comments.php:205
+msgid   "Word count:"
+msgstr  ""
+
+#: gavern/filters.php:288
+msgid   "WordPress &rsaquo; Error"
+msgstr  ""
+
+#: gavern/widgets.nsp.php:678 gavern/widgets.nsp.php:716
+#: gavern/widgets.nsp.php:868 gavern/widgets.nsp.php:894
+msgid   "Words"
+msgstr  ""
+
+#: archive.php:23
+#, php-format
+msgid   "Yearly Archives: %s"
+msgstr  ""
+
+#: gavern/form_elements/Menu/menu.php:53
+msgid   "You can enable or disable showing the menu in the template."
+msgstr  ""
+
+#: gavern/form_elements/Menu/menu.php:67
+msgid   "You can enable showing the menu in the specific pages."
+msgstr  ""
+
+#: gavern/form_elements/Menu/menu.php:94
+msgid   "You can specify the menu animation."
+msgstr  ""
+
+#: gavern/form_elements/Menu/menu.php:76
+msgid   "You can specify the menu depth."
+msgstr  ""
+
+#: gavern/form_elements/Menu/menu.php:110
+msgid   "You can specify the speed of the menu animation."
+msgstr  ""
+
+#: gavern/options.importexport.php:24 gavern/options.template.php:20
+#: gavern/options.template.php:178 gavern/options.updates.php:17
+msgid   "You don't have sufficient permissions to access this page!"
+msgstr  ""
+
+#: gavern/form_elements/Fonts/fonts.php:113
+msgid   "You have no fonts in fonts/ directory"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.fragments.php:92
+msgid   "Your comment is awaiting moderation."
+msgstr  ""
+
+#: template.contact.php:182
+msgid   "Your message was sent to us successfully."
+msgstr  ""
+
+#: gavern/widgets.nsp.php:568
+msgid   "columns:"
+msgstr  ""
+
+#: gavern/widgets.nsp.php:669 gavern/widgets.nsp.php:707
+#: gavern/widgets.nsp.php:859 gavern/widgets.nsp.php:885
+msgid   "length:"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.php:1008
+msgid   "of"
+msgstr  ""
+
+#: gavern/widgets.nsp.php:683 gavern/widgets.nsp.php:721
+#: gavern/widgets.nsp.php:752 gavern/widgets.nsp.php:792
+#: gavern/widgets.nsp.php:833
+msgid   "order:"
+msgstr  ""
+
+#: gavern/widgets.nsp.php:565 gavern/widgets.nsp.php:577
+msgid   "pages:"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.fragments.php:325
+msgid   "permalink"
+msgstr  ""
+
+#: template.contact.php:76
+msgid   "please enter a text of the message."
+msgstr  ""
+
+#: template.contact.php:68
+msgid   "please enter correct email address."
+msgstr  ""
+
+#: template.contact.php:59
+msgid   "please enter your name"
+msgstr  ""
+
+#: gavern/widgets.nsp.php:571 gavern/widgets.nsp.php:580
+msgid   "rows:"
+msgstr  ""
+
+#: gavern/widgets.nsp.php:745
+msgid   "size:"
+msgstr  ""

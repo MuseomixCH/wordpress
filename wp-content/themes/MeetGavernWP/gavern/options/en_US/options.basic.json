@@ -1,0 +1,123 @@
+[
+	{
+		"groupname": "Basic theme settings",
+		"groupdesc": "Basic theme parameters are configured here.",
+		"fields": [
+			{
+				"name": "template_style",
+				"type": "ThemeStyle",
+				"label": "Theme Style",
+				"tooltip": "Select a default theme style from the list provided.",
+				"default": "style1"
+			},
+			{
+				"name": "post_aside_state",
+				"type": "Switcher",
+				"label": "Post sidebar informations",
+				"tooltip": "Enable display of the post sidebar informations in the theme.",
+				"default": "Y",
+				"class": "",
+				"visibility": ""
+			},
+			{
+				"name": "breadcrumbs_state",
+				"type": "Select",
+				"label": "Conditional Breadcrumbs Display",
+				"tooltip": "Enable display of breadcrumbs in the theme.",
+				"default": "Y",
+				"class": "",
+				"visibility": "",
+				"other": {
+					"options": {
+						"Y": "Enabled",
+						"N": "Disabled",
+						"rule": "Conditional rule"
+					}
+				}
+			},
+			{
+				"name": "breadcrumbs_staterule",
+				"type": "RawText",
+				"label": "Breadcrumbs Display",
+				"tooltip": "Enable display of breadcrumbs on specific pages.",
+				"default": "",
+				"class": "",
+				"visibility": "breadcrumbs_state=rule"
+			},
+			{
+				"name": "social_icons_position",
+				"type": "Select",
+				"label": "Social icons position",
+				"tooltip": "You can specify the position of the social icons block.",
+				"default": "right",
+				"class": "",
+				"visibility": "",
+				"other": {
+					"options": {
+						"right": "Right",
+						"left": "Left"
+					}
+				}
+			},
+			{
+				"name": "template_homepage_mainbody",
+				"type": "Switcher",
+				"label": "Widgets Display on Homepage",
+				"tooltip": "Enable the display of widgets in mainbody widget positions instead of standard blog posts on the homepage.",
+				"default": "N",
+				"class": "",
+				"visibility": ""
+			},
+			{
+				"name": "template_show_author_info",
+				"type": "Switcher",
+				"label": "Display Author Info",
+				"tooltip": "Enable the display of the author information block for each content item.",
+				"default": "Y",
+				"class": "",
+				"visibility": ""
+			},
+			{
+				"name": "excluding_explained",
+				"type": "TextBlock",
+				"label": "Include/Exclude specific pages or categories from showing author block"
+			},
+			{
+				"name": "authorinfo_exclude_include",
+				"type": "Select",
+				"label": "Include/Exclude mode",
+				"tooltip": "Specify if the specified articles will be included or excluded.",
+				"default": "exclude",
+				"visibility": "",
+				"other": {
+					"options": {
+						"none": "Disable on all pages",
+						"include": "Include only specified articles/categories",
+						"exclude": "Exclude specified articles/categories"
+					}
+				}
+			},
+			{
+				"name": "authorinfo_articles",
+				"type": "Text",
+				"label": "Included/Excluded articles",
+				"tooltip": "Specify the list of comma-separated article IDs/titles/slugs (i.e. 2,5,34,200 or post-title1,post-title2)",
+				"default": ""
+			},
+			{
+				"name": "authorinfo_pages",
+				"type": "Text",
+				"label": "Included/Excluded pages",
+				"tooltip": "Specify the list of comma-separated page IDs/titles/slugs (i.e. 2,5,34,200 or page-title1,page-title2)",
+				"default": ""
+			},
+			{
+				"name": "authorinfo_categories",
+				"type": "Text",
+				"label": "Included/Excluded categories",
+				"tooltip": "Specify the list of comma-separated category IDs/titles/slugs (i.e. 2,5,34,200 or category-title1,category-title2)",
+				"default": ""
+			}
+		]
+	}
+]
