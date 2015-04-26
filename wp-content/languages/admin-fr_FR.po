@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-04-23 15:23:08+0000\n"
+"PO-Revision-Date: 2015-04-24 13:18:45+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -3179,11 +3179,6 @@ msgstr "Onglet d&rsquo;aide contextuelle"
 msgid "To install the theme so you can preview it with your site&#8217;s content and customize its theme options, click the \"Install\" button at the top of the left-hand pane. The theme files will be downloaded to your website automatically. When this is complete, the theme is now available for activation, which you can do by clicking the \"Activate\" link, or by navigating to your Manage Themes screen and clicking the \"Live Preview\" link under any installed theme&#8217;s thumbnail image."
 msgstr "Pour installer un thème dans le but de le prévisualiser avec le contenu de votre site et d&rsquo;en personnaliser les options, cliquez sur le bouton &laquo;&nbsp;Installer&nbsp;&raquo; en haut du panneau de gauche. Les fichiers du thème seront automatiquement téléchargés vers votre site. Ceci fait, le thème sera disponible, et vous pourrez l&rsquo;activer en cliquant sur le lien &laquo;&nbsp;Activer&nbsp;&raquo;, ou en vous rendant sur l&rsquo;écran &laquo;&nbsp;Gérer les thèmes&nbsp;&raquo; et en cliquant sur le lien &laquo;&nbsp;Prévisualisation&nbsp;&raquo; situé sous la miniature de chaque thème."
 
-#: wp-admin/includes/theme-install.php:72
-#: wp-admin/includes/theme-install.php:83
-msgid "Search by keyword"
-msgstr "Recherche par mot-clé (terme)."
-
 #: wp-admin/includes/upgrade.php:203
 msgid ""
 "This is an example page. It's different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:\n"
@@ -3205,6 +3200,11 @@ msgstr ""
 "<blockquote>La société 123 Machin Truc a été créée en 1971, et n'a cessé de proposer au public des machins-trucs de qualité depuis lors. Située à Saint-Remy-en-Bouzemont-Saint-Genest-et-Isson, 123 Machin Truc emploie 2 000 personnes, et fabrique toutes sortes de bidules super pour la communauté bouzemontoise.</blockquote>\n"
 "\n"
 "Étant donné que vous êtes un nouvel utilisateur de WordPress, vous devriez vous rendre sur votre <a href=\"%s\">tableau de bord</a> pour effacer la présente page, et créer de nouvelles pages avec votre propre contenu. Amusez-vous bien !"
+
+#: wp-admin/includes/theme-install.php:72
+#: wp-admin/includes/theme-install.php:83
+msgid "Search by keyword"
+msgstr "Recherche par mot-clé."
 
 #: wp-admin/includes/theme-install.php:78
 msgid "Search by tag"

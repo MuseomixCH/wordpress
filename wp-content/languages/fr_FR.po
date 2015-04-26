@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-04-22 19:04:54+0000\n"
+"PO-Revision-Date: 2015-04-24 12:16:55+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -124,6 +124,10 @@ msgstr[1] "%1$s réponses à %2$s"
 msgid "Your theme supports one menu. Select which menu you would like to use."
 msgstr "Votre thème ne supporte qu'un seul menu. Sélectionnez le menu que vous désirez utiliser."
 
+#: wp-includes/script-loader.php:529
+msgid "Updated!"
+msgstr "À jour !"
+
 #: wp-includes/user.php:153
 msgid "<strong>ERROR</strong>: The password you entered for the username <strong>%1$s</strong> is incorrect. <a href=\"%2$s\">Lost your password?</a>"
 msgstr "<strong>ERREUR</strong>&nbsp;: le mot de passe que vous avez saisi pour l&rsquo;utilisateur <strong>%1$s</strong> n&rsquo;est pas correct. <a href=\"%2$s\">Mot de passe oublié&nbsp;?</a>"
@@ -153,10 +157,6 @@ msgstr "Aperçu du site"
 #: wp-includes/taxonomy.php:350 wp-includes/taxonomy.php:351
 msgid "Taxonomy names must be between 1 and 32 characters in length."
 msgstr "Un nom de taxinomie doit comporter entre 1 et 32 caractères."
-
-#: wp-includes/script-loader.php:529
-msgid "Updated!"
-msgstr "A jour !"
 
 #: wp-includes/script-loader.php:528
 msgid "Updating..."
