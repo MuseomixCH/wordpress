@@ -1,0 +1,27 @@
+/*
+Theme Name: Museomix Léman
+Theme URI: http://www.museomix.ch
+Description: Museomix Léman theme, a MeetGavernWP child theme
+Template: MeetGavernWP
+License: GNU GPL v.2.0
+License URI:
+Version: 0.0.1
+Author: Luca Palli
+Author URI: http://lpal.li
+Tags:
+Text Domain: MuseomixLeman
+*/
+
+@font-face {
+    font-family: 'museomixmedium';
+    src: url('css/museomix/museomix-webfont.eot');
+    src: url('css/museomix/museomix-webfont.eot?#iefix') format('embedded-opentype'),
+         url('css/museomix/museomix-webfont.woff2') format('woff2'),
+         url('css/museomix/museomix-webfont.woff') format('woff'),
+         url('css/museomix/museomix-webfont.ttf') format('truetype'),
+         url('css/museomix/museomix-webfont.svg#museomixmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6, #gk-head a.textLogo { font-family: 'museomixmedium' !important; }
