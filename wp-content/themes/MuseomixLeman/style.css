@@ -25,3 +25,12 @@ Text Domain: MuseomixLeman
 }
 
 h1, h2, h3, h4, h5, h6, #gk-head a.textLogo { font-family: 'museomixmedium' !important; }
+
+#gk-head a.cssLogo {
+    background: url("images/logo.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 49px;
+    text-indent: -9999px;
+    width: 244px;
+    margin-top: 18px;
+}
