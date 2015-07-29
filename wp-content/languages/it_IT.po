@@ -7,7 +7,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/1.0-alpha-1000\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
 "Project-Id-Version: 4.2.x\n"
 
 #: wp-signup.php:716
@@ -442,7 +442,7 @@ msgstr "Sembra non vi sia un file <code>wp-config.php</code>. Occorre averlo per
 msgid "Links for %s"
 msgstr "Link per %s"
 
-#: wp-includes/wp-db.php:2990
+#: wp-includes/wp-db.php:2977
 msgid "<strong>ERROR</strong>: WordPress %1$s requires MySQL %2$s or higher"
 msgstr "<strong>ERRORE</strong>: WordPress %1$s richiede MySQL %2$s o superiore"
 
@@ -4128,33 +4128,33 @@ msgid "ERROR: This is not a valid feed template."
 msgstr "ERRORE: questo non è un template per i feed valido."
 
 #. translators: used to join items in a list with only 2 items
-#: wp-includes/formatting.php:3690
+#: wp-includes/formatting.php:3798
 msgid "%s and %s"
 msgstr "%s e %s"
 
 #. translators: used to join last two items in a list with more than 2 times
-#: wp-includes/formatting.php:3688
+#: wp-includes/formatting.php:3796
 msgid "%s, and %s"
 msgstr "%s e %s"
 
 #. translators: used to join items in a list with more than 2 items
-#: wp-includes/formatting.php:3686
+#: wp-includes/formatting.php:3794
 msgid "%s, %s"
 msgstr "%s, %s"
 
-#: wp-includes/formatting.php:3487
+#: wp-includes/formatting.php:3580
 msgid "The timezone you have entered is not valid. Please select a valid timezone."
 msgstr "Il fuso orario inserito non è valido. Per favore seleziona un fuso orario valido."
 
-#: wp-includes/formatting.php:3440
+#: wp-includes/formatting.php:3525
 msgid "The Site address you entered did not appear to be a valid URL. Please enter a valid URL."
 msgstr "L'indirizzo del sito immesso non sembra essere una URL valida. Per favore inserisci una URL valida."
 
-#: wp-includes/formatting.php:3429
+#: wp-includes/formatting.php:3512
 msgid "The WordPress address you entered did not appear to be a valid URL. Please enter a valid URL."
 msgstr "L'indirizzo di WordPress inserito non sembra essere una URL valida. Per favore inserisci una URL valida."
 
-#: wp-includes/formatting.php:3339
+#: wp-includes/formatting.php:3412
 msgid "The email address entered did not appear to be a valid email address. Please enter a valid email address."
 msgstr "L'indirizzo email inserito non sembra essere un indirizzo email valido. Per favore inserisci un indirizzo email valido."
 
@@ -4164,47 +4164,47 @@ msgstr "L'indirizzo email inserito non sembra essere un indirizzo email valido. 
 #. translators: If your word count is based on single characters (East Asian
 #. characters), 		   enter 'characters'. Otherwise, enter 'words'. Do not
 #. translate into your own language.
-#: wp-includes/formatting.php:2667 wp-includes/script-loader.php:379
+#: wp-includes/formatting.php:2738 wp-includes/script-loader.php:379
 msgctxt "word count: words or characters?"
 msgid "words"
 msgstr "words"
 
-#: wp-includes/formatting.php:2662 wp-includes/general-template.php:2721
+#: wp-includes/formatting.php:2733 wp-includes/general-template.php:2721
 msgid "&hellip;"
 msgstr "&hellip;"
 
-#: wp-includes/formatting.php:2575
+#: wp-includes/formatting.php:2646
 msgid "%s year"
 msgid_plural "%s years"
 msgstr[0] "%s anno"
 msgstr[1] "%s anni"
 
-#: wp-includes/formatting.php:2570
+#: wp-includes/formatting.php:2641
 msgid "%s month"
 msgid_plural "%s months"
 msgstr[0] "%s mese"
 msgstr[1] "%s mesi"
 
-#: wp-includes/formatting.php:2565
+#: wp-includes/formatting.php:2636
 msgid "%s week"
 msgid_plural "%s weeks"
 msgstr[0] "%s settimana"
 msgstr[1] "%s settimane"
 
-#: wp-includes/formatting.php:2560
+#: wp-includes/formatting.php:2631
 msgid "%s day"
 msgid_plural "%s days"
 msgstr[0] "%s giorno"
 msgstr[1] "%s giorni"
 
-#: wp-includes/formatting.php:2555
+#: wp-includes/formatting.php:2626
 msgid "%s hour"
 msgid_plural "%s hours"
 msgstr[0] "%s ora"
 msgstr[1] "%s ore"
 
 #. translators: min=minute
-#: wp-includes/formatting.php:2550
+#: wp-includes/formatting.php:2621
 msgid "%s min"
 msgid_plural "%s mins"
 msgstr[0] "%s minuto"
@@ -4259,7 +4259,7 @@ msgid "&#8221;"
 msgstr "&#8221;"
 
 #. translators: opening curly double quote
-#: wp-includes/formatting.php:62 wp-includes/formatting.php:3927
+#: wp-includes/formatting.php:62 wp-includes/formatting.php:4035
 msgctxt "opening curly double quote"
 msgid "&#8220;"
 msgstr "&#8220;"
