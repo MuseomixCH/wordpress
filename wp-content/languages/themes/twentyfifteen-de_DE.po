@@ -1,22 +1,22 @@
-# Translation of Twenty Fifteen in French (France)
+# Translation of Twenty Fifteen in German
 # This file is distributed under the same license as the Twenty Fifteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-07-27 08:39:17+0000\n"
+"PO-Revision-Date: 2015-07-26 22:15:05+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/1.0-alpha-1100\n"
 "Project-Id-Version: Twenty Fifteen\n"
 
 #. Author of the plugin/theme
 msgid "the WordPress team"
-msgstr "L&rsquo;équipe WordPress"
+msgstr "das WordPress-Team"
 
 #. Description of the plugin/theme
 msgid "Our 2015 default theme is clean, blog-focused, and designed for clarity. Twenty Fifteen's simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages. We designed it using a mobile-first approach, meaning your content takes center-stage, regardless of whether your visitors arrive by smartphone, tablet, laptop, or desktop computer."
-msgstr "Notre thème par défaut pour 2015 est pur, centré sur le blog et conçu pour être clair. La typographie simple et directe de Twenty Fifteen est lisible sur une grande variété de tailles d'écrans, et adaptée à de nombreuses langues. Nous l'avons conçu avec la méthode \"le mobile avant tout\", ce qui signifie que votre contenu a une place centrale, qu'importe si le visiteur utilise un téléphone, une tablette, un ordinateur portable ou un ordinateur de bureau."
+msgstr "Unser Standard-Theme für 2015 ist reduziert, stellt das Bloggen in den Mittelpunkt und ist auf ein klares Erscheinungsbild ausgerichtet. Twenty Fifteens einfache, gradlinige Typografie lässt sich in verschiedenen Bildschirmauflösungen und zahlreichen Sprachen gut lesen. Wir sind bei unserem Design primär von mobilen Endgeräten ausgegangen, so dass deine Inhalte in den Mittelpunkt rücken – ganz gleich, ob deine Besucher die Seiten mit einem Smartphone, Tablet, Laptop oder Desktop-Computer ansehen."
 
 #. Theme URI of the plugin/theme
 msgid "https://wordpress.org/themes/twentyfifteen/"
@@ -28,50 +28,50 @@ msgstr "Twenty Fifteen"
 
 #: single.php:37
 msgid "Previous post:"
-msgstr "Article précédent&nbsp;:"
+msgstr "Vorheriger Beitrag:"
 
 #: single.php:36
 msgid "Previous"
-msgstr "Précédent"
+msgstr "Zurück"
 
 #: single.php:34
 msgid "Next post:"
-msgstr "Article suivant&nbsp;:"
+msgstr "Nächster Beitrag:"
 
 #: single.php:33
 msgid "Next"
-msgstr "Suivant"
+msgstr "Weiter"
 
 #: search.php:18
 msgid "Search Results for: %s"
-msgstr "Résultats de recherche pour %s"
+msgstr "Suchergebnisse für: %s"
 
 #: inc/template-tags.php:122
 msgid "% Comments"
-msgstr "% commentaires"
+msgstr "% Kommentare"
 
 #: inc/template-tags.php:122
 msgid "1 Comment"
-msgstr "Un commentaire"
+msgstr "1 Kommentar"
 
 #: inc/template-tags.php:122
 msgid "Leave a comment"
-msgstr "Laisser un commentaire"
+msgstr "Hinterlasse einen Kommentar"
 
 #: inc/template-tags.php:113
 msgctxt "Used before full size attachment link."
 msgid "Full size"
-msgstr "Taille réelle"
+msgstr "Volle Größe"
 
 #: inc/template-tags.php:102
 msgctxt "Used before tag names."
 msgid "Tags"
-msgstr "Étiquettes"
+msgstr "Tags"
 
 #: inc/template-tags.php:94
 msgctxt "Used before category names."
 msgid "Categories"
-msgstr "Catégories"
+msgstr "Katgeorien"
 
 #: inc/template-tags.php:91 inc/template-tags.php:99
 msgctxt "Used between list items, there is a space after the comma."
@@ -81,7 +81,7 @@ msgstr ", "
 #: inc/template-tags.php:85
 msgctxt "Used before post author name."
 msgid "Author"
-msgstr "Auteur"
+msgstr "Autor"
 
 #: inc/template-tags.php:55
 msgctxt "Used before post format."
@@ -91,96 +91,96 @@ msgstr "Format"
 #: inc/template-tags.php:76
 msgctxt "Used before publish date."
 msgid "Posted on"
-msgstr "Publié le"
+msgstr "Veröffentlicht am"
 
 #: inc/template-tags.php:49
 msgid "Featured"
-msgstr "Mise en avant"
+msgstr "Hervorgehoben"
 
 #: inc/template-tags.php:30
 msgid "Newer Comments"
-msgstr "Commentaires plus récents"
+msgstr "Neuere Kommentare"
 
 #: inc/template-tags.php:26
 msgid "Older Comments"
-msgstr "Commentaires plus anciens"
+msgstr "Ältere Kommentare"
 
 #: inc/template-tags.php:23
 msgid "Comment navigation"
-msgstr "Navigation des commentaires"
+msgstr "Kommentar-Navigation"
 
 #: inc/customizer.php:147
 msgid "Blue"
-msgstr "Bleu"
+msgstr "Blau"
 
 #: inc/customizer.php:136
 msgid "Purple"
-msgstr "Violet"
+msgstr "Violett"
 
 #: inc/customizer.php:125
 msgid "Pink"
-msgstr "Rose"
+msgstr "Pink"
 
 #: inc/customizer.php:114
 msgid "Yellow"
-msgstr "Jaune"
+msgstr "Gelb"
 
 #: inc/customizer.php:103
 msgid "Dark"
-msgstr "Foncé"
+msgstr "Dunkel"
 
 #: inc/customizer.php:92
 msgid "Default"
-msgstr "Par défaut"
+msgstr "Standard"
 
 #: inc/customizer.php:62
 msgid "Header and Sidebar Background Color"
-msgstr "Couleur de fond de l'en-tête et de la barre latérale"
+msgstr "Header- und Seitenleisten-Hintergrundfarbe"
 
 #: inc/customizer.php:47 inc/customizer.php:63 inc/customizer.php:68
 msgid "Applied to the header on small screens and the sidebar on wide screens."
-msgstr "Appliqué à l'en-tête sur les petits écrans, et à la barre latérale sur les grands écrans."
-
-#: inc/customizer.php:46
-msgid "Header and Sidebar Text Color"
-msgstr "Couleur du texte de l'en-tête et de la barre latérale"
+msgstr "Wird bei kleinen Bildschirmen auf den Header angewendet und bei großen Bildschirmen auf die Sidebar."
 
 #: inc/customizer.php:31
 msgid "Base Color Scheme"
-msgstr "Jeu de couleurs de base"
+msgstr "Basis-Farbschema"
+
+#: inc/customizer.php:46
+msgid "Header and Sidebar Text Color"
+msgstr "Header- und Seitenleisten-Textfarbe"
 
 #: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
 msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
-msgstr "Twenty Fifteen ne fonctionne qu'à partir de WordPress 4.1. Vous utilisez la version %s. Veuillez mettre à jour et réessayer."
+msgstr "Twenty Fifteen erfordert mindestens WordPress in der Version 4.1. Du benutzt Version %s. Bitte aktualisiere dein WordPress und versuche es noch einmal."
 
 #: image.php:84
 msgctxt "Parent post link"
 msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
-msgstr "<span class=\"meta-nav\">Publié dans</span><span class=\"post-title\">%title</span>"
+msgstr "<span class=\"meta-nav\">Veröffentlicht in</span><span class=\"post-title\">%title</span>"
 
 #: image.php:24
 msgid "Next Image"
-msgstr "Image suivante"
+msgstr "Nächstes Bild"
 
 #: header.php:43
 msgid "Menu and widgets"
-msgstr "Menu et widgets"
+msgstr "Menü und Widgets"
 
 #: image.php:24
 msgid "Previous Image"
-msgstr "Image précédente"
+msgstr "Vorheriges Bild"
 
 #: header.php:26
 msgid "Skip to content"
-msgstr "Aller au contenu principal"
+msgstr "Zum Inhalt springen"
 
 #: functions.php:256
 msgid "collapse child menu"
-msgstr "fermer le sous-menu"
+msgstr "Untermenü verbergen"
 
 #: functions.php:255
 msgid "expand child menu"
-msgstr "ouvrir le sous-menu"
+msgstr "Untermenü anzeigen"
 
 #. Translators: To add an additional character subset specific to your
 #. language, translate this to 'greek', 'cyrillic', 'devanagari' or
@@ -216,23 +216,23 @@ msgstr "on"
 
 #: functions.php:135
 msgid "Add widgets here to appear in your sidebar."
-msgstr "Ajoutez des widgets ici pour les faire apparaître dans votre barre latérale."
+msgstr "Widgets hier hinzufügen, um sie in der Seitenleiste einzubauen."
 
 #: functions.php:133
 msgid "Widget Area"
-msgstr "Zone de widgets"
+msgstr "Widgetbereich"
 
 #: functions.php:86
 msgid "Social Links Menu"
-msgstr "Menu des liens de réseaux sociaux"
+msgstr "Social-Links-Menü"
 
 #: functions.php:85
 msgid "Primary Menu"
-msgstr "Menu principal"
+msgstr "Primäres Menü"
 
 #: footer.php:25
 msgid "Proudly powered by %s"
-msgstr "Fièrement propulsé par %s"
+msgstr "Stolz präsentiert von %s"
 
 #. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.2)  #-#-#-#-#
 #. Author URI of the plugin/theme
@@ -242,70 +242,70 @@ msgstr "https://wordpress.org/"
 
 #: content-none.php:31
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-msgstr "Il semblerait que nous ne soyons pas en mesure de trouver votre contenu. Essayez en lançant une recherche."
+msgstr "Es sieht so aus, als ob wir nicht das finden konnten, wonach du gesucht hast. Möglicherweise hilft eine Suche."
 
 #: content-none.php:26
 msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
-msgstr "Désolé, mais rien ne correspond à votre recherche. Veuillez réessayer avec des mots différents."
+msgstr "Entschuldigung, aber zu deinen Suchbegriffen wurde nichts passendes gefunden. Bitte versuche es mit anderen Stichworten noch einmal."
 
 #: content-none.php:22
 msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr "Prêt à publier votre premier article&nbsp;? <a href=\"%1$s\">Lancez-vous</a>&nbsp;!"
+msgstr "Bereit, um deinen ersten Beitrag zu veröffentlichen? <a href=\"%1$s\">Starte hier</a>."
 
 #: content-none.php:15
 msgid "Nothing Found"
-msgstr "Rien n&rsquo;a été trouvé"
+msgstr "Nichts gefunden"
 
 #: content-link.php:56 content-page.php:35 content-search.php:28
 #: content-search.php:33 content.php:57 image.php:71
 msgid "Edit"
-msgstr "Modifier"
+msgstr "Bearbeiten"
 
 #: content-link.php:36 content-page.php:25 content.php:38 image.php:59
 msgid "Pages:"
-msgstr "Pages&nbsp;:"
+msgstr "Seiten:"
 
 #. translators: %s: Name of current post
 #: content-link.php:31 content.php:33 inc/template-tags.php:237
 msgid "Continue reading %s"
-msgstr "Continuer la lecture de %s"
+msgstr "%s weiterlesen"
 
 #: comments.php:53
 msgid "Comments are closed."
-msgstr "Les commentaires sont fermés."
+msgstr "Kommentare sind geschlossen."
 
 #: comments.php:28
 msgctxt "comments title"
 msgid "One thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] "Une réflexion au sujet de &laquo;&nbsp;%2$s&nbsp;&raquo;"
-msgstr[1] "%1$s réflexions au sujet de &laquo;&nbsp;%2$s&nbsp;&raquo;"
+msgstr[0] "Ein Gedanke zu &bdquo;%2$s&ldquo;"
+msgstr[1] "%1$s Gedanken zu &bdquo;%2$s&ldquo;"
 
 #: author-bio.php:34
 msgid "View all posts by %s"
-msgstr "Afficher tous les articles par %s"
+msgstr "Zeige alle Beiträge von %s"
 
 #: author-bio.php:12
 msgid "Published by"
-msgstr "Publié par"
+msgstr "Veröffentlicht von"
 
 #: archive.php:51 content-link.php:40 content-page.php:29 content.php:42
 #: image.php:63 index.php:48 search.php:40
 msgid "Page"
-msgstr "Page"
+msgstr "Seite"
 
 #: archive.php:50 index.php:47 search.php:39
 msgid "Next page"
-msgstr "Page suivante"
+msgstr "Nächste Seite"
 
 #: archive.php:49 index.php:46 search.php:38
 msgid "Previous page"
-msgstr "Page précédente"
+msgstr "Vorherige Seite"
 
 #: 404.php:21
 msgid "It looks like nothing was found at this location. Maybe try a search?"
-msgstr "Apparemment, rien n&rsquo;a été trouvé à cette adresse. Essayez avec une recherche&nbsp;?"
+msgstr "Wie es aussieht, wurde an dieser Stelle nichts gefunden. Möchtest du danach suchen?"
 
 #: 404.php:17
 msgid "Oops! That page can&rsquo;t be found."
-msgstr "Oups&nbsp;! Cette page est introuvable."
+msgstr "Diese Seite konnte leider nicht gefunden werden."
