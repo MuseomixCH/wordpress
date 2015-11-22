@@ -92,8 +92,10 @@ class PLL_Upgrade {
 			if (version_compare($this->options['version'], $version, '<'))
 				call_user_func(array(&$this, 'upgrade_' . str_replace('.', '_', $version)));
 
-		if (absint(get_transient('pll_upgrade_1_4')) < time())
+		$delete_pre_1_2_data = get_transient( 'pll_upgrade_1_4' );
+		if ( false !== $delete_pre_1_2_data && absint( $delete_pre_1_2_data ) < time() ) {
 			$this->delete_pre_1_2_data();
+		}
 
 		$this->options['previous_version'] = $this->options['version']; // remember the previous version of Polylang
 		$this->options['version'] = POLYLANG_VERSION;
@@ -122,8 +124,8 @@ class PLL_Upgrade {
 		$this->options['sync'] = empty($this->options['sync']) ? array() : array_keys(PLL_Settings::list_metas_to_sync());
 
 		// set default values for post types and taxonomies to translate
-		$this->options['post_types'] = array_values(get_post_types(array('_builtin' => false, 'show_ui => true')));
-		$this->options['taxonomies'] = array_values(get_taxonomies(array('_builtin' => false, 'show_ui => true')));
+		$this->options['post_types'] = array_values(get_post_types(array('_builtin' => false, 'show_ui' => true)));
+		$this->options['taxonomies'] = array_values(get_taxonomies(array('_builtin' => false, 'show_ui' => true)));
 		update_option('polylang', $this->options);
 
 		flush_rewrite_rules(); // rewrite rules have been modified in 1.0
@@ -385,7 +387,7 @@ class PLL_Upgrade {
 	protected function delete_pre_1_2_data() {
 		// suppress data of the old model < 1.2
 		global $wpdb;
-		$wpdb->termmeta = $wpdb->prefix . 'termmeta'; // registers the termmeta table in wpdb
+		$wpdb->termmeta = $wpdb->prefix . 'termmeta'; // registers the termmeta table in wpdb in case WP < 4.4
 
 		// do nothing if the termmeta table does not exists
 		if (count($wpdb->get_results("SHOW TABLES LIKE '$wpdb->termmeta'"))) {
@@ -393,10 +395,6 @@ class PLL_Upgrade {
 			$wpdb->query("DELETE FROM $wpdb->termmeta WHERE meta_key = '_language'");
 			$wpdb->query("DELETE FROM $wpdb->termmeta WHERE meta_key = '_rtl'");
 			$wpdb->query("DELETE FROM $wpdb->termmeta WHERE meta_key = '_translations'");
-
-			// delete the termmeta table only if it is empty as other plugins may use it
-			if (!$wpdb->get_var("SELECT COUNT(*) FROM $wpdb->termmeta;"))
-				$wpdb->query("DROP TABLE $wpdb->termmeta;");
 		}
 
 		// delete the strings translations

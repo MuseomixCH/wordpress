@@ -3,8 +3,8 @@ Contributors: Chouby
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CCWWYUUQV8F4E
 Tags: multilingual, bilingual, translate, translation, language, multilanguage, international, localization
 Requires at least: 3.9
-Tested up to: 4.3
-Stable tag: 1.7.9
+Tested up to: 4.4
+Stable tag: 1.7.12
 License: GPLv2 or later
 
 Making WordPress multilingual
@@ -24,9 +24,15 @@ Polylang allows you to create a bilingual or multilingual WordPress site. You wr
 * A customizable language switcher is provided as a widget or in the nav menu
 * The admin interface is of course multilingual too and each user can set the WordPress admin language in its profile
 
+= Credits =
+
+Thanks a lot to [Alex Lopez](http://www.alexlopez.rocks/) for the design of the banner and the logo.
+Most of the flags included with Polylang are coming from [famfamfam](http://famfamfam.com/) and are public domain.
+Wherever third party code has been used, credit has been given in the code’s comments.
+
 = Translators =
 
-The plugin admin interface is currently available in 40 languages:
+The plugin admin interface is currently available in 41 languages:
 
 * English
 * French by [fxbenard](http://fxbenard.com/)
@@ -66,12 +72,9 @@ The plugin admin interface is currently available in 40 languages:
 * Brazilian Portuguese by [Henrique Vianna](http://henriquevianna.com/)
 * Georgian by [Tours in Georgia](http://www.georgia-tours.eu/)
 * Galician by [Toño Calo](http://fedellar.wordpress.com/)
-* Romanian by uskro
+* Romanian by [Philippe C. Focsaneanu](http://www.pandemicdesign.no/)
 * Japanese by [Eiko Toda](http://www.eikotoda.com)
-
-= Credits =
-
-Most of the flags included with Polylang are coming from [famfamfam](http://famfamfam.com/) and are public domain. Wherever third party code has been used, credit has been given in the code’s comments.
+* Occitan by [Cédric Valmary](http://www.totenoc.eu/)
 
 = Do you like Polylang? =
 
@@ -110,6 +113,39 @@ See http://polylang.wordpress.com/documentation/contribute/
 1. The Polylang languages admin panel in WordPress 3.8
 
 == Changelog ==
+
+= 1.7.12 (2015-11-13) =
+
+* The language taxonomy is now public for compatibility with WP 4.4
+* fix: nav menus locations are not correctly populated in customizer in WP 4.4
+* fix: the termmeta table was still deleted at upgrade
+* fix: fatal error when using the argument 'post_id' in 'pll_the_languages()' (introduced in 1.7.11) [props EKesty](https://wordpress.org/support/topic/bug-on)
+* fix: potential notice in 'pll_the_languages()' [props mattkeys](https://wordpress.org/support/topic/bug-on)
+
+= 1.7.11 (2015-10-15) =
+
+* fix: conflict with GET ajax requests sent by the jquery method load
+* fix: notice in frontend-nav-menu.php at line 211 (introduced in 1.7.10) [props Jesse Graupmann](https://wordpress.org/support/topic/warning-and-notice-on-upgrade)
+* fix: the parent list in page attributes metabox is not in the correct language (introduced in 1.7.10)
+* fix: error 404 for attachments
+* fix: the language switcher is not displayed when combining "Forces link to front page" and "Hides languages with no translation"
+
+= 1.7.10 (2015-09-28) =
+
+* Add Occitan translation contributed by [Cédric Valmary](http://www.totenoc.eu/)
+* Add de_DE_formal, en_NZ, es_CO, hy, oci, ps and tl to the predefined languages list
+* Add the filter 'pll_predefined_languages' and the actions 'pll_language_edit_form_fields' and 'pll_language_add_form_fields'
+* the termmeta table (used in Polylang < 1.2) is no more deleted when uninstalling the plugin (as it will soon be included in WP)
+* fix: prevent creating a media translation if one already exists
+* fix: Attempt to translate the nav menus for themes registering a theme location but not using it in wp_nav_menu()
+* fix: Jetpack infinite scroll
+* fix: issue with terms languages when two languages have the same name
+* fix: notices when deleting a tag and Lingotek is active
+* fix: the languages cache is not cleaned when updating the site home url
+* fix: conflict with the theme Ambition
+* fix: front page canonical url displayed by Yoast SEO
+* fix: typo in options definition at install [props null.bit](https://wordpress.org/support/topic/suggestions-for-two-new-filters?replies=5#post-7466159)
+* fix: error when adding a term in a non-translated taxonomy
 
 = 1.7.9 (2015-08-17) =
 
